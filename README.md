@@ -3,11 +3,11 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
 app/
-    core/               
-    shared/  
-    feature/
-      feature-module-1/
-      feature-module-2/
+core/               
+shared/  
+feature/
+feature-module-1/
+feature-module-2/
 
 app/
 ├── core/
@@ -56,6 +56,7 @@ app/
 │   │   ├── models/
 │   │   │   └── feature2.model.ts
 │   │   └── feature-module-2.module.ts
+│   └── pages
 ├── app-routing.module.ts
 ├── app.component.ts
 ├── app.component.html
