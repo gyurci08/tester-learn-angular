@@ -56,6 +56,7 @@ app/
 │   │   ├── models/
 │   │   │   └── feature2.model.ts
 │   │   └── feature-module-2.module.ts
+│   └── pages
 ├── app-routing.module.ts
 ├── app.component.ts
 ├── app.component.html
