@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span>My App</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/home">Home</button>
+  <button mat-button routerLink="/about">About</button>
+  <button mat-button [matMenuTriggerFor]="menu">Services</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Service 1</button>
+    <button mat-menu-item>Service 2</button>
+    <button mat-menu-item>Service 3</button>
+  </mat-menu>
+  <button mat-icon-button aria-label="User account">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>
